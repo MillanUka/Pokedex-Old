@@ -1,0 +1,220 @@
+[
+    {
+        "id": 1,
+        "name": "Bulbasaur",
+        "type": ["Grass", "Poison"],
+        "species": "Seed",
+        "height": 0.7,
+        "weight": 6.9,
+        "abilities": ["Overgrown", "Chlorophyll"],
+        "stats" : [ 
+            45, 
+            49,
+            49,
+            65,
+            65,
+            45
+        ],
+        "desc" : "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon."
+    },
+    {
+        "id": 2,
+        "name": "Ivysaur",
+        "type": ["Grass", "Poison"],
+        "species": "Seed",
+        "height": 1,
+        "weight": 13,
+        "abilities": ["Overgrown", "Chlorophyll"],
+        "stats" : [ 
+            60,
+            62,
+            63,
+            80,
+            80,
+            60
+        ],
+        "desc" : "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs."
+    },
+    {
+        "id": 3,
+        "name": "Venusaur",
+        "type": ["Grass", "Poison"],
+        "species": "Seed",
+        "height": 2,
+        "weight": 100,
+        "abilities": ["Overgrown", "Chlorophyll"],
+        "stats" : [ 
+            80, 
+            82,
+            83,
+            100,
+            100,
+            80
+        ],
+        "desc" : "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+    },
+    {
+        "id": 4,
+        "name": "Charmander",
+        "type": ["Fire"],
+        "species": "Lizard",
+        "height": 0.6,
+        "weight": 8.5,
+        "abilities": ["Blaze", "Solar Power"],
+        "stats" : [ 
+            30, 
+            52,
+            43,
+            60,
+            50,
+            65
+        ],
+        "desc" : "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+    },
+    {
+        "id": 5,
+        "name": "Charmeleon",
+        "type": ["Fire"],
+        "species": "Flame",
+        "height": 1.1,
+        "weight": 19.0,
+        "abilities": ["Blaze", "Solar Power"],
+        "stats" : [ 
+            58, 
+            64,
+            58,
+            80,
+            65,
+            80
+        ],
+        "desc" : "When it swings its burning tail, it elevates the temperature to unbearably high levels."
+    },
+    {
+        "id": 6,
+        "name": "Charizard",
+        "type": ["Fire", "Flying"],
+        "species": "Flame",
+        "height": 1.7,
+        "weight": 90.5,
+        "abilities": ["Blaze", "Solar Power"],
+        "stats" : [ 
+            78, 
+            84,
+            78,
+            109,
+            85,
+            100
+        ],
+        "desc" : "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally."
+    },
+    {
+        "id": 7,
+        "name": "Squirtle",
+        "type": ["Water"],
+        "species": "Tiny Turtle",
+        "height": 0.5,
+        "weight": 9.0,
+        "abilities": ["Torrent", "Rain Dish"],
+        "stats" : [ 
+            44, 
+            48,
+            65,
+            50,
+            64,
+            43
+        ],
+        "desc" : "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth."
+    },
+    {
+        "id": 8,
+        "name": "Wartortle",
+        "type": ["Water"],
+        "species": "Turtle",
+        "height": 1.0,
+        "weight": 22.5,
+        "abilities": ["Torrent", "Rain Dish"],
+        "stats" : [ 
+            59, 
+            63,
+            80,
+            65,
+            80,
+            58
+        ],
+        "desc" : "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance."
+    },
+    {
+        "id": 9,
+        "name": "Blastoise",
+        "type": ["Water"],
+        "species": "Shellfish",
+        "height": 1.6,
+        "weight": 85.5,
+        "abilities": ["Torrent", "Rain Dish"],
+        "stats" : [ 
+            79, 
+            83,
+            100,
+            85,
+            105,
+            78
+        ],
+        "desc" : "A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles."
+    },
+    {
+        "id": 10,
+        "name": "Caterpie",
+        "type": ["Bug"],
+        "species": "Worm",
+        "height": 0.3,
+        "weight": 2.9,
+        "abilities": ["Shield Dust", "Run Away"],
+        "stats" : [ 
+            45,
+            30,
+            35,
+            20,
+            20,
+            45
+        ],
+        "desc" : "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+    },
+    {
+        "id": 11,
+        "name": "Metapod",
+        "type": ["Bug"],
+        "species": "Cocoon",
+        "height": 0.7,
+        "weight": 9.9,
+        "abilities": ["Shed Skin"],
+        "stats" : [ 
+            50, 
+            20,
+            55,
+            25,
+            25,
+            30
+        ],
+        "desc" : "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body."
+    },
+    {
+        "id": 12,
+        "name": "Butterfree",
+        "type": ["Bug", "Flying"],
+        "species": "Butterfly",
+        "height": 1.1,
+        "weight": 32.0,
+        "abilities": ["Compound Eyes", "Tinted Lens"],
+        "stats" : [ 
+            60, 
+            45,
+            50,
+            90,
+            80,
+            70
+        ],
+        "desc" : "In battle, it flaps its wings at high speed to release highly toxic dust into the air."
+    }
+
+    
+]
