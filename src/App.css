@@ -1,23 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App {
   background-color: white;
   margin-left: 25px;
   margin-right: 25px;
@@ -56,6 +38,7 @@
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .searchBar {
   max-width: 150;
   max-height: 25px;
@@ -65,9 +48,8 @@
   margin-top: 5px;
 }
 
-
 header {
-  background-color: #EF363C;
+  background-color: skyblue;
   width: 100%;
   overflow: hidden;
   height: 44px;
@@ -77,14 +59,6 @@ header {
 input {
   width: 25%;
   height: 100%;
-}
-.display {
-  min-width: 100%;
-  background-color: antiquewhite;
-  display: inline-block;
-  flex-direction: column;
-  text-align: left;
-  image-orientation: flip;
 }
 
 .backButton {
@@ -96,8 +70,18 @@ input {
   max-height: 100px;
   color: white;
 }
+
+.display {
+  min-width: 100%;
+  background-color: white;
+  display: inline-block;
+  flex-direction: column;
+  text-align: left;
+  image-orientation: flip;
+}
+
 .Abilities {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .Poison {

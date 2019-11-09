@@ -16,7 +16,7 @@ class PokemonDisplay extends Component {
                 <div className="display" align="center">
                     <h3>{"#" + pokemon.id}</h3>
                     <h3>{"Name: " + pokemon.name}
-                        <img src={"images/" + pokemon.id + "-" + pokemon.name.toLowerCase() + ".jpg"} alt={"image of a " + pokemon.name.toLowerCase()} width="250px" height="250px" align="right"></img>
+                        <img src={"images/" + pokemon.id + "-" + pokemon.name.toLowerCase() + ".jpg"} alt={"image of a " + pokemon.name.toLowerCase()} width="250px" height="250px" align="right" border-style="dashed"></img>
                     </h3>
                     <h3>{"Type: "}{pokemon.formatType()}</h3>
                     <h3>{"Species: " + pokemon.species + " Pokemon"}
