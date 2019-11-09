@@ -1,31 +1,30 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 class PokemonPortrait extends Component {
-    
+
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+        };
     }
 
-    
+
     render() {
-        const {pokemon} = this.props;
-        
-        console.log(pokemon)
+        const { pokemon } = this.props;
+
         return (
             <React.Fragment>
-            <div className="portrait">
-                <h3>{pokemon.name}</h3>
-                <div className="portraitImage">
-                    <img src={"images/"+ pokemon.id + "-" + pokemon.name.toLowerCase() + ".jpg"} alt={"image of a " + pokemon.name.toLowerCase()} width = "130px" height = "130px"></img>
+                <div className="portrait" >
+                        <h3>{pokemon.name}</h3>
+                        <div className="portraitImage">
+                            <img src={"images/" + pokemon.id + "-" + pokemon.name.toLowerCase() + ".jpg"} alt={"image of a " + pokemon.name.toLowerCase()} width="130px" height="130px"></img>
+                        </div>
                 </div>
-            </div>
             </React.Fragment>
         );
     }
 
-    componentDidMount() {
-        console.log(this.state);
-    }
+
+    componentDidMount() { }
 }
 
 export default PokemonPortrait

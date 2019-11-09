@@ -28,7 +28,7 @@
 }
 
 .portrait {
-  background-color: lightcoral;
+  background-color: #EF363C;
   max-width: 150px;
   min-height: 150px;
   margin-right: 25px;
@@ -40,10 +40,56 @@
   min-height: 130px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 0px;
   display: flex;
   flex-direction: row;
 }
 .App-link {
   color: #09d3ac;
+}
+
+.searchBar {
+  max-width: 150;
+  max-height: 25px;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+header {
+  background-color: #EF363C;
+  width: 100%;
+  overflow: hidden;
+  height: 44px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 25%;
+  height: 100%;
+}
+.display {
+  background-color: antiquewhite;
+  display: inline-block;
+  flex-direction: column;
+  text-align: left;
+}
+
+.Abilities {
+  background-color: lightgray;
+}
+
+.Poison {
+  background-color: purple;
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
+
+.Grass {
+  background-color: green;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
 }

@@ -2,12 +2,17 @@ import React, { Component } from 'react'
 import PokemonPortrait from './PokemonPortrait';
 import pokemon from "../data/pokemon.json"
 import Pokemon from '../classes/Pokemon';
+import SearchBar from "./SearchBar"
+import PokemonDisplay from "./PokemonDisplay"
 class PokemonList extends Component {
 
     constructor(props) {
         super(props)
         this.pokemonList = []
-        this.state = {};
+        this.state = {
+            displayMode: false,
+            selectedPokemon: null
+        };
         this.init()
     }
 
@@ -39,25 +44,47 @@ class PokemonList extends Component {
     }
 
     render() {
-        return (
-            <React.Fragment>
-                {this.renderPortraits()}
-            </React.Fragment>
-        )
+
+        if (!this.state.displayMode) {
+            return (
+                <React.Fragment>
+                    <header>
+                        <SearchBar />
+                    </header>
+                    {this.renderPortraits()}
+                </React.Fragment>
+            )
+        } else {
+            return (
+                <React.Fragment>
+                <button onClick={(e) => this.displayPokemon(null)}>Back</button>
+                <PokemonDisplay pokemon = {this.state.selectedPokemon}/>
+                </React.Fragment>
+            )
+        }
     }
 
     renderPortraits() {
         return this.pokemonList.map(({ pokemon }, index) => {
             return (
                 <React.Fragment id={this.pokemonList[index].name}>
-                    <PokemonPortrait
-                        key={index}
-                        pokemon={this.pokemonList[index]}
-                    />
+                    <button onClick={(e) => this.displayPokemon(this.pokemonList[index])}>
+                        <PokemonPortrait
+                            key={index}
+                            pokemon={this.pokemonList[index]}
+                        />
+                    </button>
                 </React.Fragment>
             );
         });
     }
+
+    displayPokemon(pokemon) {
+        this.setState({ displayMode: !this.state.displayMode, selectedPokemon: pokemon })
+    }
 }
+
+
+
 
 export default PokemonList;
