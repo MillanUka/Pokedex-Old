@@ -214,7 +214,113 @@
             70
         ],
         "desc" : "In battle, it flaps its wings at high speed to release highly toxic dust into the air."
+    },
+    {
+        "id": 13,
+        "name": "Weedle",
+        "type": ["Bug", "Poison"],
+        "species": "Hairy Bug",
+        "height": 0.3,
+        "weight": 3.2,
+        "abilities": ["Shield Dust", "Run Away"],
+        "stats" : [ 
+            40, 
+            35,
+            30,
+            20,
+            20,
+            50
+        ],
+        "desc" : "Often found in forests, eating leaves. It has a sharp venomous stinger on its head."
+    },
+    {
+        "id": 14,
+        "name": "Kakuna",
+        "type": ["Bug", "Poison"],
+        "species": "Coccon",
+        "height": 0.6,
+        "weight": 10.0,
+        "abilities": ["Shed Skin"],
+        "stats" : [ 
+            45,
+            25,
+            50,
+            25,
+            25,
+            35
+        ],
+        "desc" : "Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators."
+    },
+    {
+        "id": 15,
+        "name": "Beedrill",
+        "type": ["Bug", "Poison"],
+        "species": "Poison",
+        "height": 1.0,
+        "weight": 29.5,
+        "abilities": ["Swarm", "Sniper"],
+        "stats" : [ 
+            65, 
+            90,
+            40,
+            45,
+            80,
+            75
+        ],
+        "desc" : "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+    },
+    {
+        "id": 16,
+        "name": "Pidgey",
+        "type": ["Normal", "Flying"],
+        "species": "Tiny Bird",
+        "height": 0.3,
+        "weight": 1.8,
+        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        "stats" : [ 
+            40, 
+            45,
+            40,
+            35,
+            35,
+            56
+        ],
+        "desc" : "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
+    },
+    {
+        "id": 17,
+        "name": "Pidgeotto",
+        "type": ["Normal", "Flying"],
+        "species": "Bird",
+        "height": 1.1,
+        "weight": 30,
+        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        "stats" : [ 
+            63, 
+            60,
+            55,
+            50,
+            50,
+            71
+        ],
+        "desc" : "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder."
+    },
+    {
+        "id": 18,
+        "name": "Pidgeot",
+        "type": ["Normal", "Flying"],
+        "species": "Bird",
+        "height": 1.5,
+        "weight": 39.5,
+        "abilities": ["Keen Eye", "Solar Power"],
+        "stats" : [ 
+            83, 
+            80,
+            75,
+            70,
+            70,
+            101
+        ],
+        "desc" : "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP."
     }
-
-    
 ]
