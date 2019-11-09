@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 class Pokemon {
     constructor(id, name, type, species, height, weight, abilities, stats) {
         this.id = id;
@@ -44,6 +44,38 @@ class Pokemon {
             return (
                 <React.Fragment id={currentAbility}>
                     <h3>{currentAbility}</h3>
+                </React.Fragment>
+            );
+        });
+    } 
+
+    formatStats() {
+        return this.stats.map(({ pokemon }, index) => {
+            var currentStat = this.stats[index]
+            var stat = "";
+            switch(index) {
+                case 0:
+                    stat = "HP";
+                    break;
+                case 1:
+                    stat = "Attack"
+                    break;
+                case 2:
+                    stat = "Defense"
+                    break;
+                case 3:
+                    stat = "Special Attack"
+                    break;
+                case 4:
+                    stat = "Special Defense"
+                    break;
+                case 5:
+                    stat = "Speed";
+                default:
+            }
+            return (
+                <React.Fragment id={currentStat}>
+                    <h5>{stat +": "}{currentStat}</h5>
                 </React.Fragment>
             );
         });

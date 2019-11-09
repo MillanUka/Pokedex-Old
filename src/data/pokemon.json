@@ -6,7 +6,7 @@
         "species": "Seed",
         "height": 0.7,
         "weight": 6.9,
-        "abilities": ["Overgrown", "Chlorophyll"],
+        "abilities": ["Overgrown", "Chlorophyll(Hidden)"],
         "stats" : [ 
             45, 
             49,
@@ -24,7 +24,7 @@
         "species": "Seed",
         "height": 1,
         "weight": 13,
-        "abilities": ["Overgrown", "Chlorophyll"],
+        "abilities": ["Overgrown", "Chlorophyll(Hidden)"],
         "stats" : [ 
             60,
             62,
@@ -42,7 +42,7 @@
         "species": "Seed",
         "height": 2,
         "weight": 100,
-        "abilities": ["Overgrown", "Chlorophyll"],
+        "abilities": ["Overgrown", "Chlorophyll(Hidden)"],
         "stats" : [ 
             80, 
             82,
@@ -60,7 +60,7 @@
         "species": "Lizard",
         "height": 0.6,
         "weight": 8.5,
-        "abilities": ["Blaze", "Solar Power"],
+        "abilities": ["Blaze", "Solar Power(Hidden)"],
         "stats" : [ 
             30, 
             52,
@@ -78,7 +78,7 @@
         "species": "Flame",
         "height": 1.1,
         "weight": 19.0,
-        "abilities": ["Blaze", "Solar Power"],
+        "abilities": ["Blaze", "Solar Power(Hidden)"],
         "stats" : [ 
             58, 
             64,
@@ -96,7 +96,7 @@
         "species": "Flame",
         "height": 1.7,
         "weight": 90.5,
-        "abilities": ["Blaze", "Solar Power"],
+        "abilities": ["Blaze", "Solar Power(Hidden)"],
         "stats" : [ 
             78, 
             84,
@@ -114,7 +114,7 @@
         "species": "Tiny Turtle",
         "height": 0.5,
         "weight": 9.0,
-        "abilities": ["Torrent", "Rain Dish"],
+        "abilities": ["Torrent", "Rain Dish(Hidden)"],
         "stats" : [ 
             44, 
             48,
@@ -132,7 +132,7 @@
         "species": "Turtle",
         "height": 1.0,
         "weight": 22.5,
-        "abilities": ["Torrent", "Rain Dish"],
+        "abilities": ["Torrent", "Rain Dish(Hidden)"],
         "stats" : [ 
             59, 
             63,
@@ -150,7 +150,7 @@
         "species": "Shellfish",
         "height": 1.6,
         "weight": 85.5,
-        "abilities": ["Torrent", "Rain Dish"],
+        "abilities": ["Torrent", "Rain Dish(Hidden)"],
         "stats" : [ 
             79, 
             83,
@@ -168,7 +168,7 @@
         "species": "Worm",
         "height": 0.3,
         "weight": 2.9,
-        "abilities": ["Shield Dust", "Run Away"],
+        "abilities": ["Shield Dust", "Run Away(Hidden)"],
         "stats" : [ 
             45,
             30,
@@ -204,7 +204,7 @@
         "species": "Butterfly",
         "height": 1.1,
         "weight": 32.0,
-        "abilities": ["Compound Eyes", "Tinted Lens"],
+        "abilities": ["Compound Eyes", "Tinted Lens(Hidden)"],
         "stats" : [ 
             60, 
             45,
@@ -222,7 +222,7 @@
         "species": "Hairy Bug",
         "height": 0.3,
         "weight": 3.2,
-        "abilities": ["Shield Dust", "Run Away"],
+        "abilities": ["Shield Dust", "Run Away(Hidden)"],
         "stats" : [ 
             40, 
             35,
@@ -258,7 +258,7 @@
         "species": "Poison",
         "height": 1.0,
         "weight": 29.5,
-        "abilities": ["Swarm", "Sniper"],
+        "abilities": ["Swarm", "Sniper(Hidden)"],
         "stats" : [ 
             65, 
             90,
@@ -276,7 +276,7 @@
         "species": "Tiny Bird",
         "height": 0.3,
         "weight": 1.8,
-        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks(Hidden)"],
         "stats" : [ 
             40, 
             45,
@@ -294,7 +294,7 @@
         "species": "Bird",
         "height": 1.1,
         "weight": 30,
-        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks"],
+        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks(Hidden)"],
         "stats" : [ 
             63, 
             60,
@@ -312,7 +312,7 @@
         "species": "Bird",
         "height": 1.5,
         "weight": 39.5,
-        "abilities": ["Keen Eye", "Solar Power"],
+        "abilities": ["Keen Eye", "Tangled Feet", "Big Pecks(Hidden)"],
         "stats" : [ 
             83, 
             80,

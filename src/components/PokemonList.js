@@ -57,7 +57,7 @@ class PokemonList extends Component {
         } else {
             return (
                 <React.Fragment>
-                <button onClick={(e) => this.displayPokemon(null)}>Back</button>
+                <button className = "backButton" onClick={(e) => this.displayPokemon(null)}>Back</button>
                 <PokemonDisplay pokemon = {this.state.selectedPokemon}/>
                 </React.Fragment>
             )
@@ -68,7 +68,7 @@ class PokemonList extends Component {
         return this.pokemonList.map(({ pokemon }, index) => {
             return (
                 <React.Fragment id={this.pokemonList[index].name}>
-                    <button onClick={(e) => this.displayPokemon(this.pokemonList[index])}>
+                    <button className = "portraitButton" onClick={(e) => this.displayPokemon(this.pokemonList[index])}>
                         <PokemonPortrait
                             key={index}
                             pokemon={this.pokemonList[index]}
