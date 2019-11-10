@@ -74,9 +74,11 @@ class Pokemon {
                 default:
             }
             return (
-                <React.Fragment id={currentStat}>
-                    <h5><b>{stat}</b><br></br><progress value = {currentStat} max = "100"/></h5>
-                </React.Fragment>
+                    <h5>
+                        <b>{stat}</b >
+                        <br></br>
+                        <progress value = {currentStat} max = "100"/>
+                    </h5>
             );
         });
     } 

@@ -55,6 +55,7 @@ class PokemonList extends Component {
                 </React.Fragment>
             )
         } else {
+            window.scrollTo(0, 0);
             return (
                 <React.Fragment>
                 <button className = "backButton" onClick={(e) => this.displayPokemon(null)}>Back</button>

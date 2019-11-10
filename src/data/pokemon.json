@@ -579,7 +579,7 @@
         "id": 33,
         "name": "Nidorino",
         "type": ["Poison"],
-        "species": "Poison",
+        "species": "Poison Pin",
         "height": 0.9,
         "weight": 19.5,
         "abilities": ["Poison Point", "Rivalry", "Hustle(hidden ability)"],
