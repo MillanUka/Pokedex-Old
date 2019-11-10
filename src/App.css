@@ -84,6 +84,20 @@ input {
   background-color: white;
 }
 
+progress {
+  width: 250px;
+  height: 25px;
+  text-align: center;
+  background-color: royalblue;
+}
+
+progress:after {
+  content: attr(value);
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
 .Poison {
   background-color: #682A68;
   max-width: 100px;

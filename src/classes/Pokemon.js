@@ -75,7 +75,7 @@ class Pokemon {
             }
             return (
                 <React.Fragment id={currentStat}>
-                    <h5>{stat +": "}{currentStat}</h5>
+                    <h5><b>{stat}</b><br></br><progress value = {currentStat} max = "100"/></h5>
                 </React.Fragment>
             );
         });
