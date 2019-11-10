@@ -14,18 +14,18 @@ class PokemonDisplay extends Component {
         return (
             <React.Fragment>
                 <div className="display" align="center">
-                    <h3>{"#" + pokemon.id}</h3>
-                    <h3>{"Name: " + pokemon.name}
+                    <h5>{"#" + pokemon.id}</h5>
+                    <h5>{"Name: " + pokemon.name}
                         <img src={"images/" + pokemon.id + "-" + pokemon.name.toLowerCase() + ".jpg"} alt={"image of a " + pokemon.name.toLowerCase()} width="250px" height="250px" align="right" border-style="dashed"></img>
-                    </h3>
-                    <h3>{"Type: "}{pokemon.formatType()}</h3>
-                    <h3>{"Species: " + pokemon.species + " Pokemon"}
-                    </h3>
-                    <h3>{"Height: " + pokemon.height}</h3>
-                    <h3>{"Weight: " + pokemon.weight}</h3>
-                    <div className="Abilities"><h3>{"Abilities: "}{pokemon.formatAbilities()}</h3></div>
-                    <h3>{"Stats: "}{pokemon.formatStats()}</h3>
-                    <h3>{"Description: "}<br></br><br></br>{pokemon.desc}</h3>
+                    </h5>
+                    <h5>{"Type: "}{pokemon.formatType()}</h5>
+                    <h5>{"Species: " + pokemon.species + " Pokemon"}
+                    </h5>
+                    <h5>{"Height: " + pokemon.height}</h5>
+                    <h5>{"Weight: " + pokemon.weight}</h5>
+                    <div className="Abilities"><h5>{"Abilities: "}{pokemon.formatAbilities()}</h5></div>
+                    <h5>{"Stats: "}{pokemon.formatStats()}</h5>
+                    <h5>{"Description: "}<br></br><br></br>{pokemon.desc}</h5>
                 </div>
             </React.Fragment>
         );

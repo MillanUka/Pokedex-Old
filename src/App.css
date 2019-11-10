@@ -154,3 +154,30 @@ input {
   text-align: center;
 }
 
+.Electric {
+  background-color : #A1871F;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
+
+.Fighting {
+  background-color : #7D1F1A;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
+
+.Ghost {
+  background-color : #493963;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
+
+.Psychic {
+  background-color : #A13959;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
