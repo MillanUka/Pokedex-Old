@@ -646,5 +646,653 @@
             60
         ],
         "desc" : "A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people."
+    },
+    {
+        "id": 37,
+        "name": "Vulpix",
+        "type": ["Fire"],
+        "species": "Fox",
+        "height": 0.6,
+        "weight": 9.9,
+        "abilities": ["Flash Fire", "Drought(Hidden)"],
+        "stats" : [ 
+            38, 
+            41,
+            40,
+            50,
+            65,
+            65
+        ],
+        "desc" : "At the time of birth, it has just one tail. The tail splits from its tip as it grows older."
+    },
+    {
+        "id": 38,
+        "name": "Ninetales",
+        "type": ["Fire"],
+        "species": "Fox",
+        "height": 1.1,
+        "weight": 19.9,
+        "abilities": ["Flash Fire", "Drought(Hidden)"],
+        "stats" : [ 
+            73,
+            76,
+            75,
+            81,
+            100,
+            100
+        ],
+        "desc" : "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse."
+    },
+    {
+        "id": 39,
+        "name": "Jigglypuff",
+        "type": ["Normal"],
+        "species": "Balloon",
+        "height": 0.5,
+        "weight": 5.5,
+        "abilities": ["Cute Charm", "Competitive", "Friend Guard(Hidden)"],
+        "stats" : [ 
+            115, 
+            45,
+            20,
+            45,
+            25,
+            20
+        ],
+        "desc" : "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep."
+    },
+    {
+        "id": 40,
+        "name": "Wigglytuff",
+        "type": ["Normal"],
+        "species": "Balloon",
+        "height": 1.0,
+        "weight": 12.0,
+        "abilities": ["Cute Charm", "Competitive", "Friend Guard(Hidden)"],
+        "stats" : [ 
+            140, 
+            70,
+            45,
+            85,
+            50,
+            45
+        ],
+        "desc" : "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
+    },
+    {
+        "id": 41,
+        "name": "Zubat",
+        "type": ["Poison", "Flying"],
+        "species": "Bat",
+        "height": 0.8,
+        "weight": 7.5,
+        "abilities": ["Inner Focus", "Infiltrator(Hidden)"],
+        "stats" : [ 
+            40, 
+            45,
+            35,
+            30,
+            40,
+            55
+        ],
+        "desc" : "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets."
+    },
+    {
+        "id": 42,
+        "name": "Golbat",
+        "type": ["Poison", "Flying"],
+        "species": "Bat ",
+        "height": 1.6,
+        "weight": 55.0,
+        "abilities": ["Inner Focus", "Infiltrator(Hidden)"],
+        "stats" : [ 
+            75, 
+            80,
+            70,
+            65,
+            75,
+            90
+        ],
+        "desc" : "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly."
+    },
+    {
+        "id": 43,
+        "name": "Oddish",
+        "type": ["Grass", "Poison"],
+        "species": "Weed",
+        "height": 0.5,
+        "weight": 5.4,
+        "abilities": ["Chlorophyll", "Run Away(Hidden)"],
+        "stats" : [ 
+            45, 
+            50,
+            55,
+            75,
+            65,
+            30
+        ],
+        "desc" : "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
+    },
+    {
+        "id": 44,
+        "name": "Gloom",
+        "type": ["Grass", "Poison"],
+        "species": "Weed",
+        "height": 0.8,
+        "weight": 8.0,
+        "abilities": ["Chlorophyll", "Stench(Hidden)"],
+        "stats" : [ 
+            60, 
+            65,
+            70,
+            85,
+            75,
+            40
+        ],
+        "desc" : "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey."
+    },
+    {
+        "id": 45,
+        "name": "Vileplume",
+        "type": ["Grass", "Poison"],
+        "species": "Flower",
+        "height": 1.2,
+        "weight": 18.6,
+        "abilities": ["Chlorophyll", "Effect Spore(Hidden)"],
+        "stats" : [ 
+            75, 
+            80,
+            85,
+            110,
+            90,
+            50
+        ],
+        "desc" : "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
+    },
+    {
+        "id": 46,
+        "name": "Paras",
+        "type": ["Bug", "Grass"],
+        "species": "Mushroom",
+        "height": 0.3,
+        "weight": 5.4,
+        "abilities": ["Effect Spore","Dry Skin", "Damp(Hidden)"],
+        "stats" : [ 
+            35,
+            70,
+            55,
+            45,
+            55,
+            25
+        ],
+        "desc" : "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
+    },
+    {
+        "id": 47,
+        "name": "Parasect",
+        "type": ["Bug", "Grass"],
+        "species": "Mushroom ",
+        "height": 1.0,
+        "weight": 29.5,
+        "abilities": ["Effect Spore","Dry Skin", "Damp(Hidden)"],
+        "stats" : [ 
+            60, 
+            95,
+            80,
+            60,
+            80,
+            30
+        ],
+        "desc" : "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places."
+    },
+    {
+        "id": 48,
+        "name": "Venonat",
+        "type": ["Bug", "Poison"],
+        "species": "Insect",
+        "height": 1.0,
+        "weight": 30.0,
+        "abilities": ["Compound Eyes", "Tinted Lens", "Run Away(Hidden)"],
+        "stats" : [ 
+            60, 
+            55,
+            50,
+            40,
+            55,
+            45
+        ],
+        "desc" : "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night."
+    },
+    {
+        "id": 49,
+        "name": "Venomoth",
+        "type": ["Bug", "Poison"],
+        "species": "Poison Moth",
+        "height": 1.5,
+        "weight": 12.5,
+        "abilities": ["Shield Dust", "Tinted Lens","Wonder Skin(Hidden)"],
+        "stats" : [ 
+            70, 
+            65,
+            60,
+            90,
+            75,
+            90
+        ],
+        "desc" : "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has."
+    },
+    {
+        "id": 50,
+        "name": "Diglett",
+        "type": ["Ground"],
+        "species": "Mole",
+        "height": 0.2,
+        "weight": 0.8,
+        "abilities": ["Sand Veil", "Arena Trap", "Sand Force(hidden ability)"],
+        "stats" : [ 
+            10,
+            55,
+            25,
+            35,
+            45,
+            95
+        ],
+        "desc" : "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground."
+    },
+    {
+        "id": 51,
+        "name": "Dugtrio",
+        "type": ["Ground"],
+        "species": "Mole",
+        "height": 0.7,
+        "weight": 33.3,
+        "abilities": ["Sand Veil", "Arena Trap", "Sand Force(hidden ability)"],
+        "stats" : [ 
+            35, 
+            100,
+            50,
+            50,
+            70,
+            120
+        ],
+        "desc" : "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+    },
+    {
+        "id": 52,
+        "name": "Meowth",
+        "type": ["Normal"],
+        "species": "Scratch Cat",
+        "height": 0.4,
+        "weight": 4.2,
+        "abilities": ["Pickup", "Technician", "Unnerve(Hidden)"],
+        "stats" : [ 
+            40, 
+            45,
+            35,
+            40,
+            40,
+            90
+        ],
+        "desc" : "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
+    },
+    {
+        "id": 53,
+        "name": "Persian",
+        "type": ["Normal"],
+        "species": "Classy Cat",
+        "height": 1.0,
+        "weight": 32.0,
+        "abilities": ["Limber", "Technician", "Unnerve(Hidden)"],
+        "stats" : [ 
+            65, 
+            70,
+            60,
+            65,
+            65,
+            115
+        ],
+        "desc" : "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
+    },
+    {
+        "id": 54,
+        "name": "Psyduck",
+        "type": ["Water"],
+        "species": "Duck",
+        "height": 0.8,
+        "weight": 19.6,
+        "abilities": ["Damp", "Cloud Nine", "Swift Switch(Hidden)"],
+        "stats" : [ 
+            50, 
+            52,
+            48,
+            65,
+            50,
+            55
+        ],
+        "desc" : "While lulling its enemies with its vacant look, this wily POKéMON will use psychokinetic powers."
+    },
+    {
+        "id": 55,
+        "name": "Golduck",
+        "type": ["Water"],
+        "species": "Duck ",
+        "height": 1.7,
+        "weight": 76.6,
+        "abilities": ["Damp", "Cloud Nine", "Swift Switch(Hidden)"],
+        "stats" : [ 
+            80, 
+            82,
+            78,
+            95,
+            80,
+            85
+        ],
+        "desc" : "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
+    },
+    {
+        "id": 56,
+        "name": "Mankey",
+        "type": ["Fighting"],
+        "species": "Pig Monkey",
+        "height": 0.5,
+        "weight": 28.0,
+        "abilities": ["Vital Spirit", "Anger Point", "Defiant(Hidden)"],
+        "stats" : [ 
+            40,
+            80,
+            35,
+            35,
+            45,
+            70
+        ],
+        "desc" : "Extremely quick to anger. It could be docile one moment then thrashing away the next instant."
+    },
+    {
+        "id": 57,
+        "name": "Primeape",
+        "type": ["Fighting"],
+        "species": "Pig Monkey",
+        "height": 1.0,
+        "weight": 32.0,
+        "abilities": ["Vital Spirit", "Anger Point", "Defiant(Hidden)"],
+        "stats" : [ 
+            65, 
+            105,
+            60,
+            60,
+            70,
+            95
+        ],
+        "desc" : "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught."
+    },
+    {
+        "id": 58,
+        "name": "Growlithe",
+        "type": ["Fire"],
+        "species": "Puppy",
+        "height": 0.7,
+        "weight": 19.0,
+        "abilities": ["Intimidate", "Flash Fire", "Justified(Hidden)"],
+        "stats" : [ 
+            55, 
+            70,
+            45,
+            70,
+            50,
+            60
+        ],
+        "desc" : "Very protective of its territory. It will bark and bite to repel intruders from its space."
+    },
+    {
+        "id": 59,
+        "name": "Arcanine",
+        "type": ["Fire"],
+        "species": "Legendary",
+        "height": 1.9,
+        "weight": 155.0,
+        "abilities": ["Intimidate", "Flash Fire", "Justified(Hidden)"],
+        "stats" : [ 
+            90, 
+            110,
+            80,
+            100,
+            80,
+            95
+        ],
+        "desc" : "A POKéMON that has been admired since the past for its beauty. It runs agilely as if on wings."
+    },
+    {
+        "id": 60,
+        "name": "Poliwag",
+        "type": ["Water"],
+        "species": "Tadpole",
+        "height": 0.6,
+        "weight": 12.4,
+        "abilities": ["Water Absorb", "Damp", "Swift Swim(Hidden)"],
+        "stats" : [ 
+            40, 
+            50,
+            40,
+            40,
+            40,
+            90
+        ],
+        "desc" : "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand."
+    },
+    {
+        "id": 61,
+        "name": "Poliwhirl",
+        "type": ["Water"],
+        "species": "Tadpole",
+        "height": 1.0,
+        "weight": 20.0,
+        "abilities": ["Water Absorb", "Damp", "Swift Swim(Hidden)"],
+        "stats" : [ 
+            65, 
+            65,
+            65,
+            50,
+            50,
+            90
+        ],
+        "desc" : "Capable of living in or out of water. When out of water, it sweats to keep its body slimy."
+    },
+    {
+        "id": 62,
+        "name": "Poliwrath",
+        "type": ["Water", "Fighting"],
+        "species": "Tadpole",
+        "height": 1.3,
+        "weight": 54.0,
+        "abilities": ["Water Absorb", "Damp", "Swift Swim(Hidden)"],
+        "stats" : [ 
+            90, 
+            95,
+            95,
+            70,
+            90,
+            70
+        ],
+        "desc" : "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers."
+    },
+    {
+        "id": 63,
+        "name": "Abra",
+        "type": ["Psychic"],
+        "species": "Psi",
+        "height": 0.9,
+        "weight": 19.5,
+        "abilities": ["Synchronize", "Inner Focus", "Magic Guard(Hidden)"],
+        "stats" : [ 
+            26, 
+            20,
+            15,
+            105,
+            55,
+            90
+        ],
+        "desc" : "Using its ability to read minds, it will identify impending danger and TELEPORT to safety."
+    },
+    {
+        "id": 64,
+        "name": "Kadabra",
+        "type": ["Psychic"],
+        "species": "Psi",
+        "height": 1.3,
+        "weight": 56.5,
+        "abilities": ["Synchronize", "Inner Focus", "Magic Guard(Hidden)"],
+        "stats" : [ 
+            40,
+            35,
+            30,
+            120,
+            70,
+            105
+        ],
+        "desc" : "It emits special alpha waves from its body that induce headaches just by being close by."
+    },
+    {
+        "id": 65,
+        "name": "Alakazam",
+        "type": ["Psychic"],
+        "species": "Psi",
+        "height": 1.5,
+        "weight": 48.0,
+        "abilities": ["Synchronize", "Inner Focus", "Magic Guard(Hidden)"],
+        "stats" : [ 
+            55, 
+            50,
+            45,
+            135,
+            95,
+            120
+        ],
+        "desc" : "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5,000."
+    },
+    {
+        "id": 66,
+        "name": "Machop",
+        "type": ["Fighting"],
+        "species": "Superpower ",
+        "height": 0.8,
+        "weight": 19.5,
+        "abilities": ["Guts", "No Guard", "Steadfast(hidden ability)"],
+        "stats" : [ 
+            70, 
+            80,
+            50,
+            35,
+            35,
+            35
+        ],
+        "desc" : "Loves to build its muscles. It trains in all styles of martial arts to become even stronger."
+    },
+    {
+        "id": 67,
+        "name": "Machoke",
+        "type": ["Fighting"],
+        "species": "Superpower",
+        "height": 1.5,
+        "weight": 70.5,
+        "abilities": ["Guts", "No Guard", "Steadfast(hidden ability)"],
+        "stats" : [ 
+            80, 
+            100,
+            70,
+            50,
+            60,
+            45
+        ],
+        "desc" : "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions."
+    },
+    {
+        "id": 68,
+        "name": "Machamp",
+        "type": ["Fighting"],
+        "species": "Superpower",
+        "height": 1.6,
+        "weight": 130.0,
+        "abilities": ["Guts", "No Guard", "Steadfast(Hidden)"],
+        "stats" : [ 
+            90,
+            130,
+            80,
+            65,
+            85,
+            55
+        ],
+        "desc" : "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon."
+    },
+    {
+        "id": 69,
+        "name": "Bellsprout",
+        "type": ["Grass", "Poison"],
+        "species": "Flower ",
+        "height": 0.7,
+        "weight": 4.0,
+        "abilities": ["Chlorophyll", "Gluttony(Hidden)"],
+        "stats" : [ 
+            50, 
+            75,
+            35,
+            70,
+            30,
+            40
+        ],
+        "desc" : "A carnivorous POKéMON that traps and eats bugs. It uses its root feet to soak up needed moisture."
+    },
+    {
+        "id": 70,
+        "name": "Weepinbell",
+        "type": ["Grass", "Poison"],
+        "species": "Flycatcher",
+        "height": 1.0,
+        "weight": 6.4,
+        "abilities": ["Chlorophyll", "Gluttony(Hidden)"],
+        "stats" : [ 
+            65, 
+            90,
+            50,
+            85,
+            45,
+            35
+        ],
+        "desc" : "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID."
+    },
+    {
+        "id": 71,
+        "name": "Victreebel",
+        "type": ["Grass", "Poison"],
+        "species": "Flycatcher",
+        "height": 1.7,
+        "weight": 15.5,
+        "abilities": ["Chlorophyll", "Gluttony(Hidden)"],
+        "stats" : [ 
+            80, 
+            105,
+            65,
+            100,
+            70,
+            70
+        ],
+        "desc" : "Its magical and cute appeal has many admirers. It is rare and found only in certain areas."
+    },
+    {
+        "id": 72,
+        "name": "Tentacool",
+        "type": ["Water", "Poison"],
+        "species": "Jellyfish",
+        "height": 0.9,
+        "weight": 45.5,
+        "abilities": ["Clear Body", "Liquid Ooze", "Rain Dish(Hidden)"],
+        "stats" : [ 
+            40, 
+            40,
+            35,
+            50,
+            100,
+            70
+        ],
+        "desc" : "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
     }
 ]

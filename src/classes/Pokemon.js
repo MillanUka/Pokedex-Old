@@ -30,8 +30,8 @@ class Pokemon {
             var currentType = this.type[index]
             return (
                 <React.Fragment id={currentType}>
-                    <div className ={currentType}>
-                    <h3>{currentType}</h3>
+                    <div className={currentType}>
+                        <h3>{currentType}</h3>
                     </div>
                 </React.Fragment>
             );
@@ -47,13 +47,13 @@ class Pokemon {
                 </React.Fragment>
             );
         });
-    } 
+    }
 
     formatStats() {
         return this.stats.map(({ pokemon }, index) => {
             var currentStat = this.stats[index]
             var stat = "";
-            switch(index) {
+            switch (index) {
                 case 0:
                     stat = "HP";
                     break;
@@ -74,13 +74,13 @@ class Pokemon {
                 default:
             }
             return (
-                    <h5>
-                        <b>{stat}</b >
-                        <br></br>
-                        <progress value = {currentStat} max = "100"/>
-                    </h5>
+                <h5>
+                    <b>{stat}</b >
+                    <br></br>
+                    <progress value={currentStat} max="120" />
+                </h5>
             );
         });
-    } 
+    }
 }
 export default Pokemon;
