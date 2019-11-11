@@ -68,7 +68,7 @@ class PokemonList extends Component {
     renderPortraits() {
         return this.pokemonList.map(({ pokemon }, index) => {
             return (
-                <React.Fragment id={this.pokemonList[index].name}>
+                <React.Fragment key={this.pokemonList[index].name}>
                     <button className = "portraitButton" onClick={(e) => this.displayPokemon(this.pokemonList[index])}>
                         <PokemonPortrait
                             key={index}
