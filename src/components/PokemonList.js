@@ -44,7 +44,6 @@ class PokemonList extends Component {
     }
 
     render() {
-
         if (!this.state.displayMode) {
             return (
                 <React.Fragment>

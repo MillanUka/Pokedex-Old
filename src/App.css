@@ -200,3 +200,17 @@ progress:after {
   color: white;
   text-align: center;
 }
+
+.Steel {
+  background-color : #787887;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
+
+.Dark {
+  background-color : #49392F;  
+  max-width: 100px;
+  color: white;
+  text-align: center;
+}
