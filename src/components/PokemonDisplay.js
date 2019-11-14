@@ -24,8 +24,8 @@ class PokemonDisplay extends Component {
                     <div className="pokemonDetails">
                         <h5>{"Species: " + pokemon.species + " Pokemon"}
                         </h5>
-                        <h5>{"Height: " + pokemon.height}</h5>
-                        <h5>{"Weight: " + pokemon.weight}</h5>
+                        <h5>{"Height: " + pokemon.height + " m"}</h5>
+                        <h5>{"Weight: " + pokemon.weight + " kg"}</h5>
                     </div>
                     <div className="Abilities">
                         <h5>{"Abilities: "}{pokemon.formatAbilities()}</h5>
