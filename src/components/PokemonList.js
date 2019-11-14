@@ -13,13 +13,7 @@ class PokemonList extends Component {
             displayMode: false,
             selectedPokemon: null
         };
-        this.init()
-    }
-
-    init() {
-
         this.readInFile();
-
     }
 
     readInFile() {
