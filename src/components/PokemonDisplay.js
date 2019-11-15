@@ -10,7 +10,6 @@ class PokemonDisplay extends Component {
 
     render() {
         const { pokemon } = this.props;
-
         return (
             <React.Fragment>
                 <div className="display" align="center">
@@ -31,14 +30,12 @@ class PokemonDisplay extends Component {
                         <h5>{"Abilities: "}{pokemon.formatAbilities()}</h5>
                     </div>
                     <h5>{"Stats: "}{pokemon.formatStats()}</h5>
+                    <h2 >{"Total: " + pokemon.calculateTotalStats()}</h2>
                     <h5>{"Description: "}<br></br><br></br>{pokemon.desc}</h5>
                 </div>
             </React.Fragment>
         );
     }
-
-
-    componentDidMount() { }
 }
 
 export default PokemonDisplay

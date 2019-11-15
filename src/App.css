@@ -112,18 +112,17 @@ input {
   font-size: 20px;
   min-width: 100px;
   max-width: 100px;
-  min-height: 25px;
-  max-height: 100px;
+  min-height: 10px;
+  max-height: 25px;
   color: white;
 }
 
 .display {
-  min-width: 100%;
+  min-width: 95%;
   background-color: white;
   display: inline-block;
   flex-direction: column;
   text-align: left;
-  image-orientation: flip;
 }
 
 .pokemonDetails {

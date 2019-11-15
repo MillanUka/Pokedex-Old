@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+/**
+ * This class represents a Pokemon 
+ */
 class Pokemon {
     constructor(id, name, type, species, height, weight, abilities, stats) {
         this.id = id;
@@ -79,7 +82,7 @@ class Pokemon {
                     <br></br>
                     <progress value={currentStat} max="120" />
                 </h5>
-            );
+            )
         });
     }
 }

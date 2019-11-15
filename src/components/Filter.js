@@ -18,8 +18,8 @@ class Filter extends Component {
         return (
             <div className="filter">
                 <button type="button" className="DropdownButton" onClick={this.handleButtonClick}>
-                    ☰
-  </button>
+                    Sort By
+                </button>
                 {this.state.showDropdown && (
                     <div className="dropdown">
                         <ul>
@@ -38,26 +38,26 @@ class Filter extends Component {
     }
 
     sortByHeight() {
-        const { pokemonList, ListComponent} = this.props;
-        console.log(pokemonList.sort(this.compareHeight));
+        const { pokemonList, ListComponent } = this.props;
+        pokemonList.sort(this.compareHeight);
         ListComponent.setState({ displayMode: ListComponent.state.displayMode, selectedPokemon: null });
     }
 
     sortByWeight() {
-        const { pokemonList, ListComponent} = this.props;
-        console.log(pokemonList.sort(this.compareWeight));
+        const { pokemonList, ListComponent } = this.props;
+        pokemonList.sort(this.compareWeight);
         ListComponent.setState({ displayMode: ListComponent.state.displayMode, selectedPokemon: null });
     }
 
     sortByName() {
         const { pokemonList, ListComponent } = this.props;
-        console.log(pokemonList.sort(this.compareName));
+        pokemonList.sort(this.compareName);
         ListComponent.setState({ displayMode: ListComponent.state.displayMode, selectedPokemon: null });
     }
 
     sortByID() {
         const { pokemonList, ListComponent } = this.props;
-        console.log(pokemonList.sort(this.compareID));
+        pokemonList.sort(this.compareID);
         ListComponent.setState({ displayMode: ListComponent.state.displayMode, selectedPokemon: null });
     }
 
@@ -102,6 +102,7 @@ class Filter extends Component {
         return 0;
     }
 
+    //Handles button click. Dorp downs the dropdown
     handleButtonClick = () => {
         this.setState(state => {
             return { showDropdown: !this.state.showDropdown };
