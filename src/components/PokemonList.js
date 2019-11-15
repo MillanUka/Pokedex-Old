@@ -4,16 +4,19 @@ import pokemon from "../data/pokemon.json"
 import Pokemon from '../classes/Pokemon';
 import SearchBar from "./SearchBar"
 import PokemonDisplay from "./PokemonDisplay"
+import Filter from './Filter';
 class PokemonList extends Component {
 
     constructor(props) {
         super(props);
         this.fullList = [];
         this.pokemonList = [];
+
         this.state = {
             displayMode: false,
             selectedPokemon: null
         };
+
         this.readInFile();
         this.pokemonList = this.fullList.slice();
     }
@@ -45,7 +48,8 @@ class PokemonList extends Component {
                     <header>
                         <SearchBar onChange={(e) => {
                             this.handleChange(e);
-                        }} pokemonList = {this.pokemonList} fullList={this.fullList} ListComponent= {this}/>
+                        }} pokemonList={this.pokemonList} fullList={this.fullList} ListComponent={this} />
+                        <Filter pokemonList={this.pokemonList} ListComponent={this}/>
                     </header>
                     {this.renderPortraits()}
                 </React.Fragment>
@@ -80,9 +84,10 @@ class PokemonList extends Component {
         this.setState({ displayMode: !this.state.displayMode, selectedPokemon: pokemon })
     }
 
+    // componentDidMount() {
+    //     this.setState({ displayMode: this.state.displayMode, selectedPokemon: null });
+    // }
+
 }
-
-
-
 
 export default PokemonList;
