@@ -1,3 +1,8 @@
+# Pokedex
+
+THis is a simple pokedex application made in React. It has 151 Pokemon starting from Bulbasaur and goes upto Mew. It has a live search, and allows the user to sort by height, weight, name and id. Click [here](https://millanuka.github.io/Pokedex/) to try it out! 
+
+## React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
