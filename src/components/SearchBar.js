@@ -22,11 +22,16 @@ class SearchBar extends Component {
         );
     }
 
+    /**
+     * This method will handle any changes to the search
+     * @param {} e 
+     */
     handleChange(e) {
         const { pokemonList, fullList, ListComponent } = this.props;
 
+        //Check if the search bar is empty
         if (e.target.value === "") {
-            console.log("The input is empty")
+            //If the search bar is empty then rerender the list, to show all the pokemon
             copyList(fullList,  pokemonList);
             if (ListComponent.state != null) {
                 ListComponent.setState({ displayMode: ListComponent.state.displayMode, selectedPokemon: null });
@@ -36,6 +41,8 @@ class SearchBar extends Component {
 
         emptyList(pokemonList);
 
+        //Go through the full list of pokemon an check if the user inputs matches ny of the pokemon 
+        //If it oes then add it to the list
         fullList.forEach(element => {
             if (element.name.toLowerCase().includes(e.target.value.toLowerCase())) {
                 pokemonList.push(element);
@@ -43,9 +50,12 @@ class SearchBar extends Component {
 
         });
 
+        // Render the list again to show only the search results
         if (ListComponent.state != null) {
             ListComponent.setState({ displayMode: ListComponent.state.displayMode, selectedPokemon: null });
         }
+
+        //Update the state to include the new search input
         this.setState({ searchInput: this.state.searchInput + e.target.value });
 
     }

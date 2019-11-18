@@ -21,7 +21,11 @@ class PokemonList extends Component {
         this.pokemonList = this.fullList.slice();
     }
 
+    /**
+     * Reading in from the JSOn file with all the pokemon
+     */
     readInFile() {
+        //Goes through the json files and populate the pokemon list
         for (var i = 0; i < pokemon.length; ++i) {
             var currentPokemon = pokemon[i];
 
@@ -55,6 +59,7 @@ class PokemonList extends Component {
                 </React.Fragment>
             )
         } else {
+            //Go to the top if in display mode
             window.scrollTo(0, 0);
             return (
                 <React.Fragment>
@@ -83,11 +88,6 @@ class PokemonList extends Component {
     displayPokemon(pokemon) {
         this.setState({ displayMode: !this.state.displayMode, selectedPokemon: pokemon })
     }
-
-    // componentDidMount() {
-    //     this.setState({ displayMode: this.state.displayMode, selectedPokemon: null });
-    // }
-
 }
 
 export default PokemonList;

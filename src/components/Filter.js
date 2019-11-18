@@ -37,6 +37,7 @@ class Filter extends Component {
         )
     }
 
+    //All the sorting function they all have similar alogrithm but they use different comparable functions
     sortByHeight() {
         const { pokemonList, ListComponent } = this.props;
         pokemonList.sort(this.compareHeight);
